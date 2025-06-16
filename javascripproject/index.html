@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HealthCare+</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">HealthCare+</h1>
+      <ul class="nav-links">
+        <li><a href="#" onclick="loadPage('home.html')">Home</a></li>
+        <li><a href="#" onclick="loadPage('register.html')">Register</a></li>
+        <li><a href="#" onclick="loadPage('login.html')">Login</a></li>
+        <li><a href="#" onclick="loadPage('book.html')">Book Appointment</a></li>
+        <li><a href="#" onclick="loadPage('view.html')">View Appointments</a></li>
+        <li><a href="#" onclick="loadPage('prescription.html')">Prescriptions</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Dynamic Content Section -->
+  <main>
+    <iframe id="contentFrame" src="home.html" frameborder="0" style="width: 100%; height: 90vh;"></iframe>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 HealthCare+. All rights reserved.</p>
+  </footer>
+</body>
+</html>
